@@ -1,7 +1,7 @@
 import numpy as np
 import pytest
 
-from pyvalidation.utils.value_type import (
+from pyvalidation.value_type import (
     IsColor,
     iterable_specific_type,
     scale_to_0_to_1,

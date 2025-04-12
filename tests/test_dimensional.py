@@ -1,11 +1,7 @@
-import datetime
-import sys
-print(sys.path)
-
-import numpy as np
+from pyvalidation.dimansional import dimensional_count
 import pytest
-
-from pyvalidation.utils.dimansional import dimensional_count
+import numpy as np
+import datetime
 
 
 @pytest.mark.parametrize(
