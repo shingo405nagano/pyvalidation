@@ -18,6 +18,7 @@ from pyvalidation.utils.dimansional import dimensional_count
         (np.array([[0, 1], [2, 3]]), 2),
         (np.array([[[0], [1]], [[2], [3]]]), 3),
         (datetime.datetime.now(), 0),
+        ('list[0, 0]', 0),
     ]
 )
 def test_dimensional_count(iterable, expected):
