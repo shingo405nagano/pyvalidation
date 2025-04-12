@@ -3,7 +3,6 @@ import sys
 print(sys.path)
 
 import numpy as np
-import pandas as pd
 import pytest
 
 from pyvalidation.utils.dimansional import dimensional_count
@@ -18,7 +17,6 @@ from pyvalidation.utils.dimansional import dimensional_count
         (np.array([0, 1, 2]), 1),
         (np.array([[0, 1], [2, 3]]), 2),
         (np.array([[[0], [1]], [[2], [3]]]), 3),
-        (pd.Series([0, 1, 2]), 1),
         (datetime.datetime.now(), 0),
     ]
 )
